@@ -23,7 +23,7 @@
     <div class="form-signin-area">
         <main class="form-signin">
             <a href="{{ route('linelogin') }}" class="w-100 btn btn-success" type="submit">LINEでログイン</a>
-            <p class="mt-5 mb-3 text-muted">&copy; 2023iwata</p>
+            <p class="mt-5 mb-3 text-muted">&copy; 2023</p>
         </main>
     </div>
 

@@ -6,7 +6,7 @@
     <main class="form-signin">
         <form method="POST" action="{{ route('login') }}">
             @csrf
-            <img class="mb-4" src="" alt="" width="72" height="57">
+            {{-- <img class="mb-4" src="" alt="" width="72" height="57"> --}}
             <h1 class="h3 mb-3 fw-normal">ログイン</h1>
             <div class="form-floating">
                 <input id="floatingInput" type="email" class="form-control @error('email') is-invalid @enderror"
@@ -30,16 +30,16 @@
                 @enderror
                 <label for="floatingPassword">Password</label>
             </div>
-            <div class="checkbox mb-3">
+            {{-- <div class="checkbox mb-3">
                 <label>
                     <input class="form-check-input" type="checkbox" name="remember" id="remember"
                         {{ old('remember') ? 'checked' : '' }}>Remember me
                 </label>
-            </div>
+            </div> --}}
             <button class="w-100 btn btn-primary mb-3" type="submit">ログイン</button>
         </form>
-        <a href="{{ route('linelogin') }}" class="w-100 btn btn-success" type="submit">LINEでログイン</a>
-        <p class="mt-5 mb-3 text-muted">&copy; 2023 montedoll</p>
+        {{-- <a href="{{ route('linelogin') }}" class="w-100 btn btn-success" type="submit">LINEでログイン</a> --}}
+        <p class="mt-5 mb-3 text-muted">&copy; 2023</p>
     </main>
 </div>
 {{-- <div class="container">
